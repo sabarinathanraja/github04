@@ -1,0 +1,102 @@
+label {
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 15px;
+}
+
+.formDesign {
+    width: 25%; 
+    height: 50%;
+}
+
+hr {
+    display: block;
+    height: 0.5px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    width: 80%;
+    background-color:red;
+}
+
+.checkboxBlock {
+    width: 12px;
+    height: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 10px;
+}
+
+span {
+    color:darkgrey;
+    font-size:12px;
+}
+
+input {
+    width: 300px;
+    height : 33px;
+    border-radius: 2px;
+    border: 0.3px solid gray;
+    font-size: 15px;
+    display: block;
+}
+
+input[type=checkbox] {
+    display: inline-block;
+}
+
+input[type=text]:focus {
+    border: 1px green;
+}
+
+button {
+    display: block;
+    width: 91%;
+    height: 35px;
+    border-radius: 2px;
+    border: 0.5px gray;
+    background-color: rgb(135, 135, 135);
+    color : white;
+}
+
+div {
+    margin: auto;
+    box-shadow: -15px 10px 15px -10px rgba(0,0,0,0.75);
+    padding: 10px;
+}
+
+h4 {
+    color: gray;
+    
+}
+
+.verification {
+    display: inline-block;
+    margin: 0px;
+    color: black;
+}
+
+label:nth-child(2) {
+position: relative;
+margin-bottom: 10px;
+}
+
+.almostthere
+{
+    display: inline-block;
+    text-align: right;
+    margin :0px 0px 0px 150px;
+    color: gray;
+}
+
+img {
+    position: relative;
+    left: -10px;
+    width: 300px;
+    height: 35px;
+
+}
